@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@layer base {   
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .button-animate {
+        position: absolute;
+        z-index: 0;
+        top: 10px;
+        right: -13px;
+        left: 13px;
+        bottom: -13px;
+        @apply  rounded-full;
+    
+      }
+
+   
+     
+        
+   
+
+
+    
+}
+
+
+
+
+
+/*footer img*/
+.hero-bg{
+
+
+
+  background-image:url('../src/assets/JoinWaitListLeftBgBlob.svg'), url('../src/assets/JoinWaitListRightBgBlob.svg');
+
+  background-repeat: no-repeat;
+ 
+  background-size: 26%,35%,;
+
+  background-position:  left bottom,right top;
+  
+
+
+
+}
+
+.circle{
+
+
+
+
+  background-image:url('../src/assets/JoinWaitListCircles.svg');
+  background-repeat: no-repeat;
+ 
+  background-size:100%;
+
+  background-position:center;
+
+
+
+
+
+
+
+}
+
+
+
+.section3{
+
+  background-image:url('../src/assets/DetailsSectionAsset.svg');
+
+  background-repeat: no-repeat;
+ 
+
+  background-size: 100%;
+
+  background-position:absolute;
+  
+
+
+
+
+
+}
+
+.sec1-bg{
+
+
+  background-image:url('../src/assets/HeroLeftBlob.svg');
+
+  background-repeat: no-repeat;
+ 
+  background-size: 51%;
+
+  background-position: right;
+
+  
+
+}
+.sec1-balls{
+
+
+  background-image:url('../src/assets/HeroOverlayCircles.svg');
+
+  background-repeat: no-repeat;
+ 
+  background-size: 44%;
+
+  background-position:  right;
+
+}
+
+.Over-bg{
+
+
+  background-image:url('../src/assets/OverviewTopLeft.svg'), url('../src/assets/OverviewBottomRight.svg');
+
+  background-repeat: no-repeat;
+ 
+  background-size: 33%,20%;
+
+  background-position:  Top left, bottom right;
+  
+
+
+
+}

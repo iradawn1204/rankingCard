@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@layer base {
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .button-animate {
+        position: absolute;
+        z-index: 0;
+        top: 10px;
+        right: -13px;
+        left: 13px;
+        bottom: -13px;
+        @apply  rounded-full;
+    
+      }
+}
+
